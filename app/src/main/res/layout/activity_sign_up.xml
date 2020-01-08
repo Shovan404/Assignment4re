@@ -8,6 +8,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="20sp"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:layout_marginBottom="10sp"
+    android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".SignUpActivity">
@@ -26,6 +31,7 @@
         android:text="Email address:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -33,6 +39,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etREmail"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -41,6 +48,7 @@
         android:text="Full name:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -48,6 +56,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etName"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -56,6 +65,7 @@
         android:text="Password (between 6 and 20 chars):"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -63,6 +73,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etRPassword"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -71,6 +82,7 @@
         android:text="Confirm password:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -78,6 +90,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etRCPassword"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -86,6 +99,7 @@
         android:text="Phone:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -93,6 +107,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etPhone"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -101,6 +116,7 @@
         android:text="Mobile Phone:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -108,6 +124,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etMphone"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -116,6 +133,7 @@
         android:text="Address 1 (Street Name):"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -123,6 +141,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etAddress"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -131,6 +150,7 @@
         android:text="Address (Area Location):"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -138,6 +158,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etAddress1"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
     <TextView
@@ -146,6 +167,7 @@
         android:text="Address (City Name):"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <EditText
@@ -153,6 +175,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/etAddress2"
         android:textSize="24sp"
+        android:textColor="#000000"
         />
 
 
@@ -162,6 +185,7 @@
         android:text="Subscribe / Hide Phone:"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
 
@@ -171,6 +195,7 @@
         android:id="@+id/cb1"
         android:text="I do not want to subscribe to site newsletter."
         android:textSize="20sp"
+        android:textColor="#000000"
         />
 
     <CheckBox
@@ -179,6 +204,7 @@
         android:id="@+id/cb2"
         android:text="Hide my phone number (only contact me through email"
         android:textSize="20sp"
+        android:textColor="#000000"
         />
 
     <CheckBox
@@ -188,6 +214,7 @@
         android:text="I have read and agree to terms of use."
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="#000000"
         />
 
     <Button
@@ -195,6 +222,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
+        android:layout_marginTop="14dp"
         android:layout_marginHorizontal="50dp"
         android:textColor="#ffffff"
         android:background="@color/colorPrimary"
