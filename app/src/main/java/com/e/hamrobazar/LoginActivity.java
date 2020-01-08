@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //binding
+        //bindin
         etEmail=findViewById(R.id.etEmail);
         etPassword=findViewById(R.id.etPassword);
         tvRegister=findViewById(R.id.tvRegister);
