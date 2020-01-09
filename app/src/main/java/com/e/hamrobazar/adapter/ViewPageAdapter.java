@@ -19,6 +19,10 @@ public class ViewPageAdapter extends PagerAdapter {
     private LayoutInflater layoutInflater;
     private Integer[] images = {R.drawable.one, R.drawable.two, R.drawable.three};
 
+    public ViewPageAdapter(Context context) {
+        this.context = context;
+    }
+
     @Override
     public int getCount() {
         return images.length;
