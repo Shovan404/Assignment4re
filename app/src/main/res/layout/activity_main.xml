@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#d3d3d3"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -66,7 +67,8 @@
                         android:layout_height="wrap_content"
                         android:hint="Find what you are looking for?"
                         android:textSize="18sp"
-                        android:textColor="#000000"/>
+                        android:textColor="#000000"
+                        android:drawableEnd="@drawable/ic_search_black_24dp"/>
 
                     <TextView
                         android:layout_width="330sp"
@@ -74,7 +76,8 @@
                         android:text="Post FREE Ad"
                         android:textSize="18sp"
                         android:layout_marginBottom="5sp"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/ic_edit_black_24dp"/>
 
                     <TextView
                         android:layout_width="330sp"
@@ -82,20 +85,26 @@
                         android:text="Mobile Handset"
                         android:textSize="18sp"
                         android:layout_marginBottom="5sp"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                        />
+
                     <TextView
                         android:layout_width="330sp"
                         android:layout_height="40sp"
                         android:text="Laptop/Notebooks"
                         android:textSize="18sp"
                         android:layout_marginBottom="5sp"
-                        android:layout_gravity="center" />
+                        android:layout_gravity="center"
+                        android:drawableLeft="@drawable/ic_laptop_chromebook_black_24dp"/>
 
                     <Button
                         android:layout_width="50sp"
                         android:layout_height="wrap_content"
                         android:visibility="visible"
-                        android:id="@+id/btnDownArrow"/>
+                        android:id="@+id/btnDownArrow"
+                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -111,7 +120,8 @@
                             android:text="Rental Houses"
                             android:textSize="18sp"
                             android:layout_marginBottom="5sp"
-                            android:layout_gravity="center" />
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_home_black_24dp"/>
                         <TextView
                             android:layout_width="330sp"
                             android:layout_height="40sp"
@@ -138,7 +148,9 @@
                             android:layout_width="50sp"
                             android:layout_height="wrap_content"
                             android:visibility="gone"
-                            android:id="@+id/btnUpArrow"/>
+                            android:id="@+id/btnUpArrow"
+                            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+                            />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -148,6 +160,33 @@
         </LinearLayout>
     </ScrollView>
 
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1"
+        tools:context=".GridActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:textSize="24sp"
+        android:text="Popular Trending Ads"/>
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_columnWeight="1"
+         android:layout_rowWeight="1"
+         android:background="@color/colorPrimary"
+         android:text="More"
+         android:textColor="#ffffff"
+         android:textSize="24sp"/>
+
+    </GridLayout>
 
 
     <androidx.recyclerview.widget.RecyclerView

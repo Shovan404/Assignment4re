@@ -12,7 +12,6 @@
     android:layout_marginStart="10sp"
     android:layout_marginEnd="10sp"
     android:layout_marginBottom="10sp"
-    android:background="#FFFFFF"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".SignUpActivity">
