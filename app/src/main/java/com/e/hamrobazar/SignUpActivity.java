@@ -55,6 +55,7 @@ public class SignUpActivity extends AppCompatActivity {
         etRCPassword=findViewById(R.id.etRCPassword);
         etPhone=findViewById(R.id.etPhone);
         etAddress=findViewById(R.id.etAddress);
+        etMphone=findViewById(R.id.etMphone);
         etAddress1=findViewById(R.id.etAddress1);
         etAddress2=findViewById(R.id.etAddress2);
         cb1=findViewById(R.id.cb1);
