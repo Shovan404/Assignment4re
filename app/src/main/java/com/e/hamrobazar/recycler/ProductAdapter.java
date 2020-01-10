@@ -28,7 +28,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         return 0;
     }
 
-    //public class ViewHolder extends RecyclerView.ViewHolder{
+    // ViewHolder
     public class ProductViewHolder extends  RecyclerView.ViewHolder{
 
         public ProductViewHolder(@NonNull View itemView) {
