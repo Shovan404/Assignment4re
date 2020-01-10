@@ -48,6 +48,9 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
+        getSupportActionBar().setTitle("Register");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         //binding
         etREmail=findViewById(R.id.etREmail);
         etName=findViewById(R.id.etName);

@@ -22,7 +22,7 @@
         android:id="@+id/imgProfile"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:src="@drawable/ic_image_black_24dp" />
+        android:src="@drawable/ic_local_see_black_24dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -71,6 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etRPassword"
+        android:inputType="textPassword"
         android:textSize="24sp"
         android:textColor="#000000"
         />
@@ -88,6 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etRCPassword"
+        android:inputType="textPassword"
         android:textSize="24sp"
         android:textColor="#000000"
         />
@@ -105,6 +107,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etPhone"
+        android:inputType="number"
         android:textSize="24sp"
         android:textColor="#000000"
         />
@@ -122,9 +125,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etMphone"
+        android:inputType="number"
         android:textSize="24sp"
         android:textColor="#000000"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter 10 digit Mobile No. starting with 9xxxxxxxxx"
+        android:layout_marginBottom="10sp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -159,6 +168,11 @@
         android:textSize="24sp"
         android:textColor="#000000"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E.g. Kupondole, Dillibazar, etc"
+        android:layout_marginBottom="10sp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -168,6 +182,7 @@
         android:textStyle="bold"
         android:textColor="#000000"
         />
+
 
     <EditText
         android:layout_width="match_parent"

@@ -66,7 +66,7 @@
                         android:layout_width="330sp"
                         android:layout_height="wrap_content"
                         android:hint="Find what you are looking for?"
-                        android:textSize="18sp"
+                        android:textSize="20sp"
                         android:textColor="#000000"
                         android:drawableEnd="@drawable/ic_search_black_24dp"/>
 
@@ -99,11 +99,12 @@
                         android:drawableLeft="@drawable/ic_laptop_chromebook_black_24dp"/>
 
                     <Button
-                        android:layout_width="50sp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/ic_keyboard_arrow_down_black_24dp"
                         android:visibility="visible"
                         android:id="@+id/btnDownArrow"
-                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+
                         />
 
                     <LinearLayout
@@ -128,28 +129,31 @@
                             android:text="Furniture for Home"
                             android:textSize="18sp"
                             android:layout_marginBottom="5sp"
-                            android:layout_gravity="center" />
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_format_paint_black_24dp"/>
                         <TextView
                             android:layout_width="330sp"
                             android:layout_height="40sp"
                             android:text="Houses for Sale"
                             android:textSize="18sp"
                             android:layout_marginBottom="5sp"
-                            android:layout_gravity="center" />
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_store_black_24dp"/>
                         <TextView
                             android:layout_width="330sp"
                             android:layout_height="40sp"
                             android:text="See More Categories"
                             android:textSize="18sp"
                             android:layout_marginBottom="5sp"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:drawableLeft="@drawable/ic_border_all_black_24dp"/>
 
                         <Button
-                            android:layout_width="50sp"
-                            android:layout_height="wrap_content"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/ic_keyboard_arrow_up_black_24dp"
                             android:visibility="gone"
                             android:id="@+id/btnUpArrow"
-                            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
                             />
                     </LinearLayout>
 
@@ -179,8 +183,8 @@
      <Button
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_columnWeight="1"
          android:layout_rowWeight="1"
+         android:layout_marginEnd="44dp"
          android:background="@color/colorPrimary"
          android:text="More"
          android:textColor="#ffffff"
@@ -226,8 +230,8 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
+                    android:layout_marginEnd="44dp"
                     android:background="@color/colorPrimary"
                     android:text="More"
                     android:textColor="#ffffff"

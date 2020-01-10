@@ -26,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        getSupportActionBar().hide();
 
         //bindin
         etEmail=findViewById(R.id.etEmail);
@@ -35,14 +36,6 @@ public class LoginActivity extends AppCompatActivity {
         btnForgot=findViewById(R.id.btnForgot);
         btnRegister=findViewById(R.id.btnRegister);
 
-        //Popup
-        DisplayMetrics dm = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(dm);
-
-        int width = dm.widthPixels;
-        int height = dm.heightPixels;
-
-        getWindow().setLayout((int) (width * .9), (int) (height * .9));
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
