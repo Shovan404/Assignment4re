@@ -1,8 +1,11 @@
 package com.e.hamrobazar.api;
 
+import com.e.hamrobazar.model.Products;
 import com.e.hamrobazar.model.User;
 import com.e.hamrobazar.serverresponse.ImageResponse;
 import com.e.hamrobazar.serverresponse.UserResponse;
+
+import java.util.List;
 
 import okhttp3.MultipartBody;
 import retrofit2.Call;
@@ -27,4 +30,7 @@ public interface HamrobazarApi {
     @Multipart
     @POST("upload")
     Call<ImageResponse> uploadImage(@Part MultipartBody.Part img);
+
+    @GET("products")
+    Call<List<Products>>getProduct();
 }

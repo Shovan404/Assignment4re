@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.e.hamrobazar.R;
 import com.e.hamrobazar.model.Products;
 import com.e.hamrobazar.url.URL;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -41,7 +42,13 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         holder.tvType.setText(productsView.getCondition());
 
         String price=productsView.getPrice();
-        holder.tvPrice.setText(productsView.getPrice());
+        holder.tvPrice.setText("Rs."+price);
+
+        //for setting image in recycle view
+        String image=productsView.getImage();
+        String imgPath= URL.imagePath+image;
+
+        Picasso.get().load(imgPath).into(holder.imgProduct);
 
     }
 
