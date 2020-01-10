@@ -225,7 +225,7 @@
                     android:layout_columnWeight="1"
                     android:layout_rowWeight="1"
                     android:textSize="24sp"
-                    android:text="Recently Listted Ads"/>
+                    android:text="Recently Listed Ads"/>
 
                 <Button
                     android:layout_width="wrap_content"
